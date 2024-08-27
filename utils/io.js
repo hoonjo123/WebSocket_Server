@@ -22,6 +22,7 @@ module.exports = function(io) {
       } catch (error) {
         cb({ ok: false, error: error.message });
       }
+      
     });
 
     // 클라이언트가 'sendMessage' 이벤트를 전송했을 때
